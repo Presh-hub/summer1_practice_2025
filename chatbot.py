@@ -80,18 +80,6 @@ def chat():
         print(f"Chatbot: {response}")
 
 if __name__ == "__main__":
-    # Example usage of preprocessing (as in your previous output)
-    print("\n--- Preprocessing Examples ---")
-    sample_sentence = 'The quick brown foxes are running quickly to the beautiful forest.'
-    processed_sample = preprocess_text(sample_sentence)
-    print(f"Original Sentence: '{sample_sentence}'")
-    print(f"Processed by preprocess_text function: {processed_sample}\n")
-
-    sample_query = 'Hey, what\'s the weather like in New York today?'
-    processed_query = preprocess_text(sample_query)
-    print(f"Original User Query: '{sample_query}'")
-    print(f"Processed User Query: {processed_query}\n")
-    print("--- End Preprocessing Examples ---\n")
-
+    
     # Start the interactive chat
     chat()
